@@ -1,19 +1,19 @@
 package assessment;
 
-public class Student {
+public class StudentMap {
 	private String rollno;
 	static int age;
 
-	public Student(String rollno, int age) {
+	public void Student(String rollno, int age) {
 		this.rollno = rollno;
 		this.age = age;
 	}
 
-	public Student() {
+	public void Student() {
 		this(" ", 0);
 	}
 
-	public static int getAge() {
+	public int getAge() {
 		return age;
 	}
 
